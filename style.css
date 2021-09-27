@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rebeccapurple;
+}
+
+#container {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#saat {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-left: 4px;
+  font-size: 128px;
+  text-align: center;
+  border-radius: 4px;
+}
+#dakika {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-left: 4px;
+  font-size: 128px;
+  text-align: center;
+  border-radius: 4px;
+}
+#saniye {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin-left: 4px;
+  font-size: 128px;
+  text-align: center;
+  border-radius: 4px;
+}
